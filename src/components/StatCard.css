@@ -1,0 +1,41 @@
+.stat-card {
+  transition: var(--transition);
+}
+
+.stat-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.stat-icon {
+  font-size: 2.5rem;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color);
+  border-radius: var(--border-radius-lg);
+}
+
+.stat-icon-primary { color: var(--primary-color); }
+.stat-icon-success { color: var(--success-color); }
+.stat-icon-warning { color: var(--warning-color); }
+
+.stat-info {
+  flex: 1;
+}
+
+.stat-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 4px 0;
+}
+
+.stat-label {
+  color: var(--text-secondary);
+  margin: 0;
+  font-size: 0.875rem;
+}

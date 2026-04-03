@@ -1,0 +1,35 @@
+.empty-state {
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.empty-content {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.empty-icon {
+  font-size: 4rem;
+  margin-bottom: 16px;
+  color: var(--text-secondary);
+  display: flex;
+  justify-content: center;
+}
+
+.empty-state h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 8px 0;
+}
+
+.empty-state p {
+  color: var(--text-secondary);
+  margin: 0 0 24px 0;
+}
+
+@media (max-width: 480px) {
+  .empty-state {
+    padding: 40px 20px;
+  }
+}

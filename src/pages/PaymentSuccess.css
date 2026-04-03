@@ -1,0 +1,106 @@
+.payment-success-page {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.success-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.success-card {
+  text-align: center;
+}
+
+.success-animation {
+  margin-bottom: 32px;
+}
+
+.success-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 12px 0;
+}
+
+.success-message {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  margin: 0 0 32px 0;
+}
+
+.transaction-details {
+  background-color: var(--background-color);
+  border-radius: var(--border-radius-lg);
+  padding: 24px;
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.detail-row.highlight {
+  background-color: rgba(16, 185, 129, 0.1);
+  margin: 0 -24px;
+  padding: 16px 24px;
+  border-radius: var(--border-radius);
+}
+
+.detail-label {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.detail-value {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.detail-value.amount {
+  color: var(--success-color);
+  font-size: 1.125rem;
+}
+
+.success-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.success-note {
+  background-color: #fef3c7;
+  border: 1px solid #f59e0b;
+  border-radius: var(--border-radius);
+  padding: 16px;
+  font-size: 0.875rem;
+  color: #92400e;
+}
+
+@media (max-width: 480px) {
+  .success-title {
+    font-size: 1.5rem;
+  }
+  
+  .transaction-details {
+    padding: 20px;
+  }
+  
+  .detail-row.highlight {
+    margin: 0 -20px;
+    padding: 16px 20px;
+  }
+}
